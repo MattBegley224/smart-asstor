@@ -18,13 +18,13 @@ All colors MUST be HSL.
     --popover: 40 20% 98%;
     --popover-foreground: 28 25% 15%;
 
-    /* Warm leather brown as primary */
-    --primary: 28 45% 35%;
+    /* Medium grey as primary */
+    --primary: 210 8% 45%;
     --primary-foreground: 42 25% 96%;
 
     /* Dusty sage for secondary */
     --secondary: 150 12% 82%;
-    --secondary-foreground: 28 45% 35%;
+    --secondary-foreground: 210 8% 45%;
 
     --muted: 40 15% 88%;
     --muted-foreground: 28 15% 45%;
@@ -38,15 +38,15 @@ All colors MUST be HSL.
 
     --border: 40 20% 85%;
     --input: 40 20% 90%;
-    --ring: 28 45% 35%;
+    --ring: 210 8% 45%;
 
     --radius: 0.75rem;
     
     /* Custom frontier colors */
-    --frontier-leather: 28 45% 35%;
+    --frontier-leather: 210 8% 45%;
     --frontier-dust: 42 25% 75%;
     --frontier-mist: 200 30% 70%;
-    --frontier-wood: 30 35% 40%;
+    --frontier-wood: 210 10% 50%;
     --frontier-stone: 210 10% 55%;
     
     /* Gradients */
@@ -54,8 +54,8 @@ All colors MUST be HSL.
     --gradient-feature: linear-gradient(180deg, hsl(42 25% 96%), hsl(40 20% 98%));
     
     /* Shadows */
-    --shadow-frontier: 0 10px 40px -15px hsl(28 45% 35% / 0.15);
-    --shadow-card: 0 4px 20px -5px hsl(28 45% 35% / 0.1);
+    --shadow-frontier: 0 10px 40px -15px hsl(210 8% 45% / 0.15);
+    --shadow-card: 0 4px 20px -5px hsl(210 8% 45% / 0.1);
     
     /* Transitions */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -88,7 +88,7 @@ All colors MUST be HSL.
     --popover: 220 18% 15%;
     --popover-foreground: 42 25% 92%;
 
-    --primary: 42 35% 65%;
+    --primary: 210 8% 65%;
     --primary-foreground: 220 20% 12%;
 
     --secondary: 220 15% 25%;
@@ -105,12 +105,12 @@ All colors MUST be HSL.
 
     --border: 220 15% 25%;
     --input: 220 15% 25%;
-    --ring: 42 35% 65%;
+    --ring: 210 8% 65%;
     
-    --frontier-leather: 28 35% 45%;
+    --frontier-leather: 210 8% 50%;
     --frontier-dust: 42 20% 35%;
     --frontier-mist: 200 20% 35%;
-    --frontier-wood: 30 25% 30%;
+    --frontier-wood: 210 10% 40%;
     --frontier-stone: 210 10% 40%;
     
     --gradient-hero: linear-gradient(135deg, hsl(200 20% 25% / 0.3), hsl(220 20% 12%));
