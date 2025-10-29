@@ -39,7 +39,7 @@ const Features = () => {
             const Icon = feature.icon;
             
             return (
-              <Card key={feature.title} className="border-2 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-frontier)] transition-all duration-500">
+              <Card key={feature.title} className="border-2 shadow-lg hover:shadow-xl transition-all duration-500">
                 <CardContent className="p-6 space-y-4">
                   <div className="p-3 rounded-xl bg-primary/10 w-fit">
                     <Icon className="h-8 w-8 text-primary" />
