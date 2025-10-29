@@ -41,27 +41,23 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={mountainsImage}
-                alt="Asstor with a prospector examining documents in mountainous terrain"
-                className="w-full h-auto"
-              />
-            </div>
+          <div className="order-1 md:order-2">
+            <img
+              src={mountainsImage}
+              alt="Asstor with a prospector examining documents in mountainous terrain"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
 
         {/* Section 2: The Call */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={mountainPeaksImage}
-                alt="Asstor with pioneer and camping expedition in mountain valley"
-                className="w-full h-auto"
-              />
-            </div>
+          <div>
+            <img
+              src={mountainPeaksImage}
+              alt="Asstor with pioneer and camping expedition in mountain valley"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
           <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
@@ -102,27 +98,23 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={wagonTrailImage}
-                alt="Asstor with pioneer at sunset near wagon trail with mountains in the distance"
-                className="w-full h-auto"
-              />
-            </div>
+          <div className="order-1 md:order-2">
+            <img
+              src={wagonTrailImage}
+              alt="Asstor with pioneer at sunset near wagon trail with mountains in the distance"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
 
         {/* Section 4: The Journey Begins */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={sunnyCampImage}
-                alt="Asstor and pioneer at a mountain camp with tents and campfire"
-                className="w-full h-auto"
-              />
-            </div>
+          <div>
+            <img
+              src={sunnyCampImage}
+              alt="Asstor and pioneer at a mountain camp with tents and campfire"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
           <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
@@ -163,27 +155,23 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={mudTrailImage}
-                alt="Asstor navigating a muddy forest trail with other animals struggling in the background"
-                className="w-full h-auto"
-              />
-            </div>
+          <div className="order-1 md:order-2">
+            <img
+              src={mudTrailImage}
+              alt="Asstor navigating a muddy forest trail with other animals struggling in the background"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
 
         {/* Section 6: The Crossing */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={edgeImage}
-                alt="Asstor carrying supplies confidently on a mountain ridge overlooking a valley with a winding river"
-                className="w-full h-auto"
-              />
-            </div>
+          <div>
+            <img
+              src={edgeImage}
+              alt="Asstor carrying supplies confidently on a mountain ridge overlooking a valley with a winding river"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
           <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
@@ -224,27 +212,23 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={heroRaysImage}
-                alt="Asstor standing beside the Columbia River with dramatic rays of sunlight breaking through storm clouds"
-                className="w-full h-auto"
-              />
-            </div>
+          <div className="order-1 md:order-2">
+            <img
+              src={heroRaysImage}
+              alt="Asstor standing beside the Columbia River with dramatic rays of sunlight breaking through storm clouds"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
 
         {/* Section 8: The Foundation */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="p-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={settlementImage}
-                alt="Asstor watching the construction of Fort Astoria settlement by the Columbia River"
-                className="w-full h-auto"
-              />
-            </div>
+          <div>
+            <img
+              src={settlementImage}
+              alt="Asstor watching the construction of Fort Astoria settlement by the Columbia River"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
           <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
