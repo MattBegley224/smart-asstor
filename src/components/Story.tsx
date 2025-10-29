@@ -28,7 +28,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">The Bloodline</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The morning mist rolled thick off the Columbia River as Asstor stood at the edge of Fort Clatsop, 
               his gray coat dampened by the perpetual drizzle that defined this wild corner of the world. He was 
@@ -65,7 +64,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">The Call to Service</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "You're sure about this one?" Hunt asked, squinting at the modest donkey before him. 
               The overland expedition to establish Fort Astoria had been brutal—months of treacherous 
@@ -87,7 +85,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">Loading the Future</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "We need every able body," Hunt finally said. "Load him up." They packed Asstor with the 
               essentials: beaver traps, iron tools, seeds for the first gardens, and most precious of 
@@ -124,7 +121,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">The Trail West</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The final journey from Fort Clatsop to the site of Fort Astoria was only a few miles, but 
               the terrain was unforgiving—thick forests, muddy ravines, and trails that disappeared into 
@@ -146,7 +142,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">Through Impossible Terrain</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The forest grew dense, the trail turned to mud. Rain had been falling for days, turning the 
               path into a morass that swallowed hooves and wheels alike. Oxen bellowed in frustration, 
@@ -183,7 +178,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">Steady. Forward. Trust.</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               When they reached a swollen creek that blocked their path, the men hesitated. The current 
               was swift, the water black and cold. Asstor didn't wait for orders. He stepped into the 
@@ -205,7 +199,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">Where Rivers Meet</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               By afternoon, they crested the final rise. Below them, at the river's mouth where the mighty 
               Columbia met the Pacific, lay a cleared space—the future site of Fort Astoria. Light broke 
@@ -242,7 +235,6 @@ const Story = () => {
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
             <div className="relative z-10 text-center">
-            <h3 className="text-3xl font-bold text-primary">The Foundation of an Empire</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "First load through," Hunt declared, lifting a ledger from Asstor's pack. "This donkey just 
               carried the foundation of an empire." Old Thomas stroked Asstor's muzzle. "Just like his kin 
