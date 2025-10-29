@@ -42,7 +42,7 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-xl">
             <img
               src={mountainsImage}
               alt="Asstor with a prospector examining documents in mountainous terrain"
@@ -53,7 +53,7 @@ const Story = () => {
 
         {/* Section 2: The Call */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src={mountainPeaksImage}
               alt="Asstor with pioneer and camping expedition in mountain valley"
@@ -101,7 +101,7 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-xl">
             <img
               src={wagonTrailImage}
               alt="Asstor with pioneer at sunset near wagon trail with mountains in the distance"
@@ -112,7 +112,7 @@ const Story = () => {
 
         {/* Section 4: The Journey Begins */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src={sunnyCampImage}
               alt="Asstor and pioneer at a mountain camp with tents and campfire"
@@ -160,7 +160,7 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-xl">
             <img
               src={mudTrailImage}
               alt="Asstor navigating a muddy forest trail with other animals struggling in the background"
@@ -171,7 +171,7 @@ const Story = () => {
 
         {/* Section 6: The Crossing */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src={edgeImage}
               alt="Asstor carrying supplies confidently on a mountain ridge overlooking a valley with a winding river"
@@ -219,7 +219,7 @@ const Story = () => {
             </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-xl">
             <img
               src={heroRaysImage}
               alt="Asstor standing beside the Columbia River with dramatic rays of sunlight breaking through storm clouds"
@@ -230,7 +230,7 @@ const Story = () => {
 
         {/* Section 8: The Foundation */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src={settlementImage}
               alt="Asstor watching the construction of Fort Astoria settlement by the Columbia River"
