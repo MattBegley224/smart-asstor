@@ -23,7 +23,7 @@ const Story = () => {
 
         {/* Section 1: The Bloodline */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -60,7 +60,7 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -82,7 +82,7 @@ const Story = () => {
 
         {/* Section 3: Loading Up */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -119,7 +119,7 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -141,7 +141,7 @@ const Story = () => {
 
         {/* Section 5: The Treacherous Path */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -178,7 +178,7 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -200,7 +200,7 @@ const Story = () => {
 
         {/* Section 7: The Promise */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
@@ -237,7 +237,7 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6 relative p-8 rounded-xl shadow-lg">
+          <div className="space-y-6 relative p-8 rounded-xl">
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
