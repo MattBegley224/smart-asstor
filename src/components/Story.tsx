@@ -6,11 +6,15 @@ import mudTrailImage from "@/assets/mud-trail.jpg";
 import edgeImage from "@/assets/edge.jpg";
 import heroRaysImage from "@/assets/hero-rays.jpg";
 import settlementImage from "@/assets/settlement.jpg";
+import parchmentBg from "@/assets/parchment.jpg";
 
 const Story = () => {
   return (
-    <section className="py-24 px-4">
-      <div className="container mx-auto max-w-6xl">
+    <section className="py-24 px-4 relative">
+      <div className="absolute inset-0 opacity-5">
+        <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+      </div>
+      <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
             A Legacy of <span className="text-primary">Perseverance</span>
@@ -22,7 +26,11 @@ const Story = () => {
 
         {/* Section 1: The Bloodline */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">The Bloodline</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The morning mist rolled thick off the Columbia River as Asstor stood at the edge of Fort Clatsop, 
@@ -35,6 +43,7 @@ const Story = () => {
               explained to William Price Hunt. "His grandmother hauled the first American flag that flew west 
               of the Rockies. The bloodline don't lie, sir."
             </p>
+            </div>
           </div>
           <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
             <img
@@ -54,7 +63,11 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">The Call to Service</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "You're sure about this one?" Hunt asked, squinting at the modest donkey before him. 
@@ -66,12 +79,17 @@ const Story = () => {
               a colt—how his great-great-grandfather, Asterion, had been chosen from a thousand donkeys in 
               St. Louis for his steady temperament and iron will.
             </p>
+            </div>
           </div>
         </div>
 
         {/* Section 3: Loading Up */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">Loading the Future</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "We need every able body," Hunt finally said. "Load him up." They packed Asstor with the 
@@ -84,6 +102,7 @@ const Story = () => {
               clouds as the expedition prepared to depart, casting long shadows across the meadow where 
               wagons stood ready.
             </p>
+            </div>
           </div>
           <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
             <img
@@ -103,7 +122,11 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">The Trail West</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The final journey from Fort Clatsop to the site of Fort Astoria was only a few miles, but 
@@ -115,12 +138,17 @@ const Story = () => {
               tell stories of the west they were building. He thought of Asterion and all the donkeys in 
               between—each carrying their portion of history.
             </p>
+            </div>
           </div>
         </div>
 
         {/* Section 5: The Treacherous Path */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">Through Impossible Terrain</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The forest grew dense, the trail turned to mud. Rain had been falling for days, turning the 
@@ -133,6 +161,7 @@ const Story = () => {
               there. He could feel the wisdom of generations flowing through his hooves, each step a 
               tribute to the donkeys who came before.
             </p>
+            </div>
           </div>
           <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
             <img
@@ -152,7 +181,11 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">Steady. Forward. Trust.</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               When they reached a swollen creek that blocked their path, the men hesitated. The current 
@@ -164,12 +197,17 @@ const Story = () => {
               current pulled and pushed, but he leaned into it, found purchase on the rocky bottom, and 
               emerged on the far side, supplies dry and secure. The men cheered and followed.
             </p>
+            </div>
           </div>
         </div>
 
         {/* Section 7: The Promise */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          <div className="space-y-6 order-2 md:order-1">
+          <div className="space-y-6 order-2 md:order-1 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">Where Rivers Meet</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               By afternoon, they crested the final rise. Below them, at the river's mouth where the mighty 
@@ -182,6 +220,7 @@ const Story = () => {
               great-grandfather had crossed the Bitterroots. This was why his grandmother had carried the 
               flag west. Every step of his journey had led to this moment.
             </p>
+            </div>
           </div>
           <div className="order-1 md:order-2 rounded-2xl overflow-hidden shadow-[var(--shadow-frontier)]">
             <img
@@ -201,7 +240,11 @@ const Story = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 relative p-8 rounded-xl">
+            <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
+              <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="relative z-10">
             <h3 className="text-3xl font-bold text-primary">The Foundation of an Empire</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "First load through," Hunt declared, lifting a ledger from Asstor's pack. "This donkey just 
@@ -221,6 +264,7 @@ const Story = () => {
                 — Historical Note
               </footer>
             </blockquote>
+            </div>
           </div>
         </div>
       </div>
