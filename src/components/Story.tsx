@@ -30,7 +30,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">The Bloodline</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The morning mist rolled thick off the Columbia River as Asstor stood at the edge of Fort Clatsop, 
@@ -67,7 +67,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">The Call to Service</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "You're sure about this one?" Hunt asked, squinting at the modest donkey before him. 
@@ -89,7 +89,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">Loading the Future</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "We need every able body," Hunt finally said. "Load him up." They packed Asstor with the 
@@ -126,7 +126,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">The Trail West</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The final journey from Fort Clatsop to the site of Fort Astoria was only a few miles, but 
@@ -148,7 +148,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">Through Impossible Terrain</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               The forest grew dense, the trail turned to mud. Rain had been falling for days, turning the 
@@ -185,7 +185,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">Steady. Forward. Trust.</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               When they reached a swollen creek that blocked their path, the men hesitated. The current 
@@ -207,7 +207,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">Where Rivers Meet</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               By afternoon, they crested the final rise. Below them, at the river's mouth where the mighty 
@@ -244,7 +244,7 @@ const Story = () => {
             <div className="absolute inset-0 opacity-10 rounded-xl overflow-hidden">
               <img src={parchmentBg} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="relative z-10">
+            <div className="relative z-10 text-center">
             <h3 className="text-3xl font-bold text-primary">The Foundation of an Empire</h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               "First load through," Hunt declared, lifting a ledger from Asstor's pack. "This donkey just 
