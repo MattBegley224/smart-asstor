@@ -146,7 +146,7 @@ const PrivacyPolicy = () => {
           <p>If you have any questions about this Privacy Policy, You can contact us:</p>
           
           <ul className="list-disc pl-6">
-            <li>By visiting this page on our website: <a href="http://smart-asstor" rel="external nofollow noopener" target="_blank" className="text-primary hover:underline">http://smart-asstor</a></li>
+            <li>By visiting this page on our website: <a href="http://smart-asstor.com" rel="external nofollow noopener" target="_blank" className="text-primary hover:underline">http://smart-asstor.com</a></li>
           </ul>
         </article>
       </main>
