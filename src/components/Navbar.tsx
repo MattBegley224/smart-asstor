@@ -45,6 +45,13 @@ const Navbar = () => {
           >
             Download
           </a>
+          <a
+            href="/#contact"
+            onClick={(e) => { e.preventDefault(); handleNav('contact'); }}
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Support
+          </a>
         </div>
         
         <Button size="sm" className="gap-2">
