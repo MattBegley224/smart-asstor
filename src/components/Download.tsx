@@ -35,24 +35,6 @@ const Download = () => {
             Download on the App Store
           </Button>
         </div>
-
-        <div className="pt-12 space-y-4 text-muted-foreground">
-          <p className="text-lg font-medium">What adventurers are saying:</p>
-          <div className="flex flex-col md:flex-row gap-6 justify-center text-sm">
-            <div className="flex items-center gap-2">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
-              <span>"Like having a guide on every trail"</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
-              <span>"Never lose track of terms again"</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
-              <span>"The celebrations are pure joy"</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

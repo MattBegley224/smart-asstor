@@ -56,7 +56,7 @@ const Contact = () => {
     <section className="py-24 px-4 bg-muted/30" id="contact">
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Get in Touch</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Support</h2>
           <p className="text-muted-foreground text-lg">
             Have questions? Send us a message and we'll get back to you.
           </p>
