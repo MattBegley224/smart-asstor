@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Story from "@/components/Story";
 import Features from "@/components/Features";
 import Download from "@/components/Download";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -19,6 +20,7 @@ const Index = () => {
       <div id="download">
         <Download />
       </div>
+      <Contact />
       <Footer />
     </div>
   );
