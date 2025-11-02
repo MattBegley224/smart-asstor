@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="border-t border-border py-12 px-4">
@@ -27,9 +29,9 @@ const Footer = () => {
               <li>The Bloodline</li>
               <li>Fort Astoria Story</li>
               <li>
-                <a href="/privacy-policy" className="hover:text-foreground transition-colors">
+                <Link to="/privacy-policy" className="hover:text-foreground transition-colors">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
