@@ -26,7 +26,11 @@ const Footer = () => {
               <li>About Asstor</li>
               <li>The Bloodline</li>
               <li>Fort Astoria Story</li>
-              <li>Privacy Policy</li>
+              <li>
+                <a href="/privacy-policy" className="hover:text-foreground transition-colors">
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
           </div>
         </div>
