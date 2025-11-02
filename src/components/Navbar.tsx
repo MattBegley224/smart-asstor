@@ -12,13 +12,13 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#story" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#story" className="text-muted-foreground hover:text-foreground transition-colors">
             Story
           </a>
-          <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#features" className="text-muted-foreground hover:text-foreground transition-colors">
             Features
           </a>
-          <a href="#download" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/#download" className="text-muted-foreground hover:text-foreground transition-colors">
             Download
           </a>
         </div>
