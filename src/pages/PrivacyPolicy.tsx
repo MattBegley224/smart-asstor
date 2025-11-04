@@ -43,25 +43,6 @@ const PrivacyPolicy = () => {
           
           <h2 className="text-3xl font-bold mt-12 mb-4">Collecting and Using Your Personal Data</h2>
           
-          <h3 className="text-2xl font-semibold mt-8 mb-3">Types of Data Collected</h3>
-          
-          <h4 className="text-xl font-semibold mt-6 mb-2">Personal Data</h4>
-          <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
-          
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Email address</li>
-            <li>Usage Data</li>
-          </ul>
-          
-          <h4 className="text-xl font-semibold mt-6 mb-2">Usage Data</h4>
-          <p>Usage Data is collected automatically when using the Service.</p>
-          
-          <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-          
-          <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device's unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
-          
-          <p>We may also collect information that Your browser sends whenever You visit Our Service or when You access the Service by or through a mobile device.</p>
-          
           <h3 className="text-2xl font-semibold mt-8 mb-3">1. Introduction</h3>
           <p>This Privacy Policy describes how we collect, use, and handle your personal information when you use our Service.</p>
 
